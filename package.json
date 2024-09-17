@@ -3,15 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jainam-kajaliya.github.io/Portfolio-React/",
-
+  "homepage": "https://Jainam-Kajaliya.github.io/Portfolio-React/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run predeploy && gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^11.5.4",
@@ -36,4 +35,3 @@
     "vite": "^5.4.1"
   }
 }
-
